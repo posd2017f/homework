@@ -12,5 +12,5 @@ class Sort {
   public :static void sortByDecreasingArea(std::list<Shape *> * shapeList);
   
   public :static void sortByIncreasingCompactness(std::list<Shape *> * shapeList);
-  
+  // Compactness = area/perimeter
 };
