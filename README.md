@@ -4,6 +4,9 @@
 
 Make the unit tests given (Sort.h, utSort.h) to you pass.
 
+#### Update
+9/19 Update define of compactness in Sort.h.
+
 #### Assignment requirement
 
  1. Implement Sort.h.
