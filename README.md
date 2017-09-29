@@ -1,26 +1,31 @@
 # POSD2017F Homework
 
-## Homework assignment 1
+## Homework assignment 2
 
-Make the unit tests given (Sort.h, utSort.h) to you pass.
+Please use [the files that were used in course](https://github.com/yccheng66/posd2017f) and copy test header to your repository from this project. 
 
-#### Update
-9/19 Update define of compactness in Sort.h.
+For this time, not only run the test you write, but the test we prepared for your program.
+So you will see two jobs, make sure 2 jobs are pass before deadline.
+
+We prepare some example in utTerm.h.
+
+Everyone's CI job had updated, so it should pull the repository once you push commit. If it does not work, email us.
 
 #### Assignment requirement
 
- 1. Implement Sort.h.
- 2. According to #1, write five unit tests in utSort.h.
- 3. Write the corresponding makefile to generate executable file which named `hw1`.
+ 1. Implement Number.h and write its unit tests in utTerm.h.
+ 2. Modify your implementations so that can meet all tests in in utTerm.h.
+ 3. Write the corresponding makefile to generate executable file which named `hw2`.
+ 4. Make sure your CI job is passed before deadline.
 
 #### Marks
 
-Each test is 10 points, total is 50 points.
+Each test is 6 points(2 for your test, 4 for we prepared), total is 90 points.
 
 #### Deadline
 
-Thurs Sep 21 2017 23:59:59
+Fri Oct 6 2017 23:59:59
 
 #### Note
 
-Make sure your job on CI server is passed.
+Clean all HW1 related files (Media.h, Shapes.h, Sort.h...and its implementation).
