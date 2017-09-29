@@ -13,7 +13,7 @@ Everyone's CI job had updated, so it should pull the repository once you push co
 
 #### Assignment requirement
 
- 1. Implement Number.h and write its unit tests in utTerm.h.
+ 1. Implement number.h and write its unit tests in utTerm.h.
  2. Modify your implementations so that can meet all tests in in utTerm.h.
  3. Write the corresponding makefile to generate executable file which named `hw2`.
  4. Make sure your CI job is passed before deadline.
