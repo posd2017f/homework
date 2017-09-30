@@ -5,23 +5,25 @@
 Please use [the files that were used in course](https://github.com/yccheng66/posd2017f) and copy test header to your repository from this project. 
 
 For this time, not only run the test you write, but the test we prepared for your program.
-So you will see two jobs, make sure 2 jobs are pass before deadline.
-
-We prepare some example in utTerm.h.
-
-Everyone's CI job had updated, so it should pull the repository once you push commit. If it does not work, email us.
+So you will see two jobs, make sure 2 jobs will be passed before deadline. Then, everyone's CI job had updated, it should pull the repository automatically once you push your commit. If it does not work, email to us.
 
 #### Assignment requirement 
-9/30 Update
- 1. Implement number.h and write its unit tests in utTerm.h. For symbol() and value() they return string type ; match() returns boolean.
- 2. Rename the method name == in atom.h to match.
- 3. Modify your implementations so that can meet all tests in in utTerm.h.
+ 1. Need to create a header file by youself naming `Number.h`.
+   In this header, there will be three method you should define: `symbol()`, `value()` and `match()`. As you define the Atom 
+   and implement it, the `symbol` and `value` method should return value with string type. And for `match`, in this homework, 
+   please use the method way to define instead of operator. 
+    
+ 2. Also re-define and re-implement the `match()` in Atom via method way instead of operator.
+ 
+ 3. Implement all tests in utTerm.h. There are prompts in each test, follow the prompt to complete tests.
+ 
  4. Write the corresponding makefile to generate executable file which named `hw2`.
- 5. Make sure your CI job is passed before deadline.
+ 
+ 5. Make sure your CI jobs are both passed before deadline.
 
 #### Marks
 
-Each test is 6 points(2 for your test, 4 for we prepared), total is 90 points.
+Each test is 6 points(2 for your test, 4 for T.A. test), total is 90 points.
 
 #### Deadline
 
@@ -29,4 +31,6 @@ Fri Oct 6 2017 23:59:59
 
 #### Note
 
-Clean all HW1 related files (Media.h, Shapes.h, Sort.h...and its implementation).
+ * Clean all HW1 related files (Media.h, Shapes.h, Sort.h...and its implementation).
+ * The header's first letter should be capitalized so that we can caugth your header file on CI.
+ * If you had any suggestions in HW1, improve it.
