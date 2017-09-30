@@ -24,7 +24,7 @@ So you will see two jobs, make sure 2 jobs will be passed before deadline. Then,
 #### Marks
 
 On your own tests, each test has 2 points, total is 30 points.
-On TA's tests, each test has 2 points, total is 60 points.
+On TA's tests, each test has 4 points, total is 60 points.
 The sum of this homework marks is 90.
 
 #### Deadline
