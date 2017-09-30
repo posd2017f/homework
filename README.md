@@ -7,6 +7,13 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
 For this time, not only run the test you write, but the test we prepared for your program.
 So you will see two jobs, make sure 2 jobs will be passed before deadline. Then, everyone's CI job had updated, it should pull the repository automatically once you push your commit. If it does not work, email to us.
 
+### Update
+
+ * Sat Sep 30 2017 15:53:58
+ 
+    If your CI job fails, you can click state icon to get the further information.
+    ![consoleLog](https://i.imgur.com/wgXB8ap.png)
+
 #### Assignment requirement 
  1. Need to create a header file by youself naming `Number.h`.
    In this header, there will be three method you should define: `symbol()`, `value()` and `match()`. As you define the Atom 
