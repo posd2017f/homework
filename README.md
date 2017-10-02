@@ -8,7 +8,25 @@ For this time, not only run the test you write, but the test we prepared for you
 So you will see two jobs, make sure 2 jobs will be passed before deadline. Then, everyone's CI job had updated, it should pull the repository automatically once you push your commit. If it does not work, email to us.
 
 ### Update
+ * Mon Oct 02 2017 14:07:39
+ 
+    Some people met the error like this:
+    ![Imgur](https://i.imgur.com/ft0F8ZC.png)
+    
+    It's because the building environment on CI serve is on windows paltform. So you need to write additional instructions against 
+    windows. You can refer [this homework](https://github.com/e8315402/myProject/blob/master/makefile) using in homework 1, and make 
+    sure that each instruction has same arguments.
+    
+```diff
+foo.o: foo.h foo.cpp
+g++ --std=c++11 foo.h foo.cpp
 
+bar.o: bar.h bar.cpp
++ ✓ g++ --std=c++11 bar.h bar.cpp
+- ✗ g++ bar.h bar.cpp
+```
+    
+ 
  * Sat Sep 30 2017 15:53:58
  
     If your CI job fails, you can click state icon to get the further information.
