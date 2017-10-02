@@ -19,7 +19,7 @@ So you will see two jobs, make sure 2 jobs will be passed before deadline. Then,
     
 ```diff
 foo.o: foo.h foo.cpp
-g++ --std=c++11 foo.h foo.cpp
+ g++ --std=c++11 foo.h foo.cpp
 
 bar.o: bar.h bar.cpp
 + ✓ g++ --std=c++11 bar.h bar.cpp
