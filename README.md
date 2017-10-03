@@ -8,6 +8,16 @@ For this time, not only run the test you write, but the test we prepared for you
 So you will see two jobs, make sure 2 jobs will be passed before deadline. Then, everyone's CI job had updated, it should pull the repository automatically once you push your commit. If it does not work, email to us.
 
 ### Update
+ * Tue Oct 03 2017 09:46:22
+
+    * About `Number`,  its constructor should take an argument with int type, as the test prompt in utTerm.h that we give you.
+    Some people may think that it could take a double number or string value, but in this time we just consider some simple situation. 
+    Maybe in the following course you will modity some define in a perfect way.
+    
+    * For all header files, **the first letter of file name, please use lowercase.** In the early day, we ask you use uppercase, 
+    but it's wrong, and it is our mistake, we just didn't have enough communication on it. So if you are using uppercase on each header, 
+    please change to lowercase.
+
  * Mon Oct 02 2017 14:07:39
  
     Some people met the error like this:
@@ -36,7 +46,7 @@ bar.o: bar.h bar.cpp
  1. Need to create a header file by youself naming `Number.h`.
    In this header, there will be three method you should define: `symbol()`, `value()` and `match()`. As you define the Atom 
    and implement it, the `symbol` and `value` method should return value with string type. And for `match`, in this homework, 
-   please use the method way to define instead of operator. 
+   please use the method way to define instead of operator.
     
  2. Also re-define and re-implement the `match()` in Atom via method way instead of operator.
  
