@@ -15,8 +15,13 @@ So you will see two jobs, make sure 2 jobs will be passed before deadline. Then,
     Maybe in the following course you will modity some define in a perfect way.
     
    * For all header files, **the first letter of file name, please use lowercase.** In the early day, we ask you use uppercase, 
-    but it's wrong, and it is our mistake, we just didn't have enough communication on it. So if you are using uppercase on each header, 
+    but it's wrong and it is our mistake, we just didn't have enough communication on it. So if you are using uppercase on each header, 
     please change to lowercase.
+    
+   * For each class, **the first letter of class name, please use uppercase.** And note that the Variable class in utTerm.h, we wrote
+   `Var`, but it is also wrong. Please follow the way in course using `Variable`.
+   
+   Sorry for this time there are so many places need to be modify, we will improve that at the next homework.
 
  * Mon Oct 02 2017 14:07:39
  
