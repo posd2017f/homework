@@ -10,11 +10,11 @@ So you will see two jobs, make sure 2 jobs will be passed before deadline. Then,
 ### Update
  * Tue Oct 03 2017 09:46:22
 
-    * About `Number`,  its constructor should take an argument with int type, as the test prompt in utTerm.h that we give you.
+   * About `Number`,  its constructor should take an argument with int type, as the test prompt in utTerm.h that we give you.
     Some people may think that it could take a double number or string value, but in this time we just consider some simple situation. 
     Maybe in the following course you will modity some define in a perfect way.
     
-    * For all header files, **the first letter of file name, please use lowercase.** In the early day, we ask you use uppercase, 
+   * For all header files, **the first letter of file name, please use lowercase.** In the early day, we ask you use uppercase, 
     but it's wrong, and it is our mistake, we just didn't have enough communication on it. So if you are using uppercase on each header, 
     please change to lowercase.
 
