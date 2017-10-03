@@ -8,6 +8,7 @@ For this time, not only run the test you write, but the test we prepared for you
 So you will see two jobs, make sure 2 jobs will be passed before deadline. Then, everyone's CI job had updated, it should pull the repository automatically once you push your commit. If it does not work, email to us.
 
 ### Update
+
  * Tue Oct 03 2017 09:46:22
 
    * About `Number`,  its constructor should take an argument with int type, as the test prompt in utTerm.h that we give you.
