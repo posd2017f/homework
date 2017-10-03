@@ -1,37 +1,41 @@
 #ifndef UTTERM_H
 #define UTTERM_H
 
+#include "variable.h"
+#include "atom.h"
+#include "number.h"
+
 //test Number.value()
-TEST (Number,ctor) {
+TEST (Number, ctor) {
 
 }
 //test Number.symbol()
 TEST (Number, symbol) {
 
 }
-//?- 25=25.
-//true.
+//?- 25 = 25.
+// true.
 TEST (Number, matchSuccess) {
 
 }
-//?- 25=0.
-//false.
+//?- 25 = 0.
+// false.
 TEST (Number, matchFailureDiffValue) {
 
 }
-//?- 25=tom.
-//false.
+//?- 25 = tom.
+// false.
 TEST (Number, matchFailureDiffConstant) {
 
 }
-//?- 25=X.
-//true.
+//?- 25 = X.
+// true.
 TEST (Number, matchSuccessToVar) {
   
 }
 
-//?- tom=25.
-//false.
+//?- tom = 25.
+// false.
 TEST (Atom, matchFailureDiffConstant) {
 
 }
@@ -42,13 +46,13 @@ TEST (Atom, matchSuccessToVar) {
 
 }
 
-// ?- X=tom, tom=X.
+// ?- X = tom, tom = X.
 // X = tom.
 TEST (Atom, matchSuccessToVarInstantedToDiffConstant) {
 
 }
 
-// ?- X=jerry, tom=X.
+// ?- X = jerry, tom = X.
 // false.
 TEST (Atom, matchFailureToVarInstantedToDiffConstant) {
 
@@ -56,29 +60,29 @@ TEST (Atom, matchFailureToVarInstantedToDiffConstant) {
 
 // ?- X = 5.
 // X = 5.
-TEST (Var, matchSuccessToNumber) {
+TEST (Variable, matchSuccessToNumber) {
  
 }
 
-// ?- X=25, X= 100.
+// ?- X = 25, X = 100.
 // false.
-TEST (Var, matchFailureToTwoDiffNumbers) {
+TEST (Variable, matchFailureToTwoDiffNumbers) {
 
 }
 
-// ?- X=tom, X= 25.
+// ?- X = tom, X = 25.
 // false.
-TEST (Var, matchSuccessToAtomThenFailureToNumber) {
+TEST (Variable, matchSuccessToAtomThenFailureToNumber) {
 
 }
-//?- tom=X, 25=X.
-//false.
-TEST (Var, matchSuccessToAtomThenFailureToNumber2) {
+//?- tom = X, 25 = X.
+// false.
+TEST (Variable, matchSuccessToAtomThenFailureToNumber2) {
 
 }
-//?- X=tom, X=tom.
-//true.
-TEST(Var, reAssignTheSameAtom){
+//?- X = tom, X = tom.
+// true.
+TEST(Variable, reAssignTheSameAtom){
 
 }
 #endif
