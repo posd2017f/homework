@@ -21,7 +21,8 @@ So you will see two jobs, make sure 2 jobs will be passed before deadline. Then,
    * For each class, **the first letter of class name, please use uppercase.** And note that the Variable class in utTerm.h, we wrote
    `Var`, but it is also wrong. Please follow the way in course using `Variable`.
    
-   Sorry for this time there are so many places need to be modify, we will improve that at the next homework.
+   Sorry for this time there are so many places need to be modify, we will improve that at the next homework. After this update, if your 
+   jobs already pass, please rebuild it and check it still pass or not.
 
  * Mon Oct 02 2017 14:07:39
  
