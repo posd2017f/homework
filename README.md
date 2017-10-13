@@ -8,7 +8,7 @@ In this homework...
 
 ~~And unfortunately, the theft of plagiarism occurred again and again, in order to protect the rights and interests of students, we decided to ask you to move your repository from Github to [Gitlab](https://gitlab.com). Please follow [the steps](https://github.com/posd2017f/homework#setup-gitlab-repository) below to change your repository host.~~
 
-:zap: After discussion with Professor, we decided to remain github host. So if you already created a new gitlab repository, sorry for that.
+:zap: After we discussed with Professor, we decided to remain github host. So if you already created a new gitlab repository, sorry for that.
 
 #### Assignment requirement
 
