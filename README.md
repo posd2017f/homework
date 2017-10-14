@@ -13,7 +13,7 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
   1. Need `number.h` and its class implementation `Number`, you can use the previous one(hw2). And the interface of `Number` should follow the code block below:
 
       ```c++
-      void Number(double value);
+      Number(double value);
       std::string symbol();
       std::string value();
       ```
