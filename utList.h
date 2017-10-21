@@ -117,7 +117,7 @@ TEST(List, headAndTailMatching2) {
 }
 
 // ?- [[first], second, third] = [H|T].
-// H = first, T = [[second], third].
+// H = [first], T = [second, third].
 TEST(List, headAndTailMatching3) {
 
 }
