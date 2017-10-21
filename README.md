@@ -6,6 +6,20 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
 
 :zap: Some people will place header files into `include` folder, and it may cause the building of .ut job to fail. If so, just email to us and we will change the configuation for you.
 
+#### Update
+  
+  * Sat Oct 21 2017 11:12:56
+
+    The description on test `headAndTailMatching3` is wrong, the H should return *[first]* and the T returns *[second, third]*.
+
+    ```diff
+    + // ?- [[first], second, third] = [H|T].
+    + // H = [first], T = [second, third].
+    - // ?- [[first], second, third] = [H|T].
+    - // H = first, T = [[second], third].
+    ```
+  
+
 #### Assignment requirement
 
   1.  Implement `List` according to the `list.h`, and also all tests in `utList.h`.
