@@ -16,7 +16,7 @@ TEST (List, constructor) {
   
 }
 
-// Given there are two perfect numbers: 8128
+// Given there is a perfect numbers: 8128
 // When create a new list with the perfect Number
 // Then #symbol() of the list should return "[8128]"
 TEST(List, Numbers) {
@@ -62,7 +62,7 @@ TEST(List, matchToVarShouldSucceed) {
 }
 
 // ?- X = [496, X, terence_tao].
-// false.
+// true.
 TEST(List, matchToVarOccuredInListShouldFail) {
 
 }
