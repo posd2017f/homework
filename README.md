@@ -7,6 +7,19 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
 :zap: Some people will place header files into `include` folder, and it may cause the building of .ut job to fail. If so, just email to us and we will change the configuation for you.
 
 #### Update
+
+  * Sun Oct 22 2017 13:45:41
+  
+    The description on test `Numbers` is wrong, there should be two numbers. Please modify your test if there is only one.
+    
+    ```diff
+    + // Given there are two perfect Numbers: 8128, 496
+    + // When create a new list with the perfect Number
+    + // Then #symbol() of the list should return "[8128, 496]"
+    - // Given there are two perfect Numbers: 8128
+    - // When create a new list with the perfect Number
+    - // Then #symbol() of the list should return "[8128]"
+    ```
   
   * Sat Oct 21 2017 11:12:56
 
