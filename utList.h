@@ -16,9 +16,9 @@ TEST (List, constructor) {
   
 }
 
-// Given there are two perfect numbers: 8128
+// Given there are two perfect Numbers: 8128, 496
 // When create a new list with the perfect Number
-// Then #symbol() of the list should return "[8128]"
+// Then #symbol() of the list should return "[496, 8128]"
 TEST(List, Numbers) {
 
 }
