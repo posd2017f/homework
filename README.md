@@ -8,6 +8,10 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
 
 #### Update
 
+ * Tue Oct 24 2017 11:01:43
+ 
+   We have already corrected the configuration of .ut job, so you can see the error msg when the test is crash. If you still cannot get the test report and also any error msg, reply to us.
+
  * Mon Oct 23 2017 09:54:36
  
    * Please check your ut job, if it's passed but there is no test report comes out (besides first time building), it means your progarm actually is crash. We are discussing about this cas and think about how to fix it or is there other solution. 
