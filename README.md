@@ -8,19 +8,9 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
 
 #### Update
 
- * Tue Oct 24 2017 11:01:43
- 
-   We have already corrected the configuration of .ut job, so you can see the error msg when the test is crash. If you still cannot get the test report and also any error msg, reply to us.
-
- * Mon Oct 23 2017 09:54:36
- 
-   * Please check your ut job, if it's passed but there is no test report comes out (besides first time building), it means your progarm actually is crash. We are discussing about this cas and think about how to fix it or is there other solution. 
-   
-   * And about test case X = [496, X, terence_tao]. In this weekend, we replied one student that this decision was a sample judgment that we made and it can be corrected if it's wrong truly. But it sounds pretty irresponsible(sorry for Mr. X), so we re-discuss this case today.\
-      \
-      About this metter, we need to check the definition of matching. In the section 2.2 *Matching* of the book: PROLOG Programming for Artificial Intelligence (third version, Ivan Bratko, 0-201-40375-7), said if two terms match, it must: (1)They are identical, or (2) the variables in both terms can be instantiated to objects in such a way that after the substitution of variables by these objects the terms become identical. Rule (1) is easy to understand, but what is rule (2)? Rule (2) means that if it can get the any value which can make the equation holds, we said it match. For our case, if variable X could be instantiated by any value that make the equation holds, the #match() should return true, otherwise returns false. **But it couldn't be, and also not yet.**\
-      \
-      We can't set true or false on this case utill the variable X can be instantiated. In SWI-Prolog you will get the string "X = [496, X, terence_tao]" as the result instead of false, but it doesn't mean that this matching actually returns true or false(in program). So, for this one, **we just decided to make it not score. You can get the points but you still need to write the test, we don't care about the true or false it returns.**
+  * Thu Oct 26 2017 09:45:46
+     
+     There are so many students ask us how to test exception, we recommand you just [google it](https://www.google.com.tw/search?q=c%2B%2B+exception+test). And if you already saw the example from google, don't just copy/paste, look the description on test carefully to write the appropriate test.
    
 #### Assignment requirement
 
@@ -51,6 +41,20 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
   * If your CI job can not pull your repository, email to us.
 
 #### Change log
+
+ * Tue Oct 24 2017 11:01:43
+ 
+   We have already corrected the configuration of .ut job, so you can see the error msg when the test is crash. If you still cannot get the test report and also any error msg, reply to us.
+
+ * Mon Oct 23 2017 09:54:36
+ 
+   * Please check your ut job, if it's passed but there is no test report comes out (besides first time building), it means your progarm actually is crash. We are discussing about this cas and think about how to fix it or is there other solution. 
+   
+   * And about test case X = [496, X, terence_tao]. In this weekend, we replied one student that this decision was a sample judgment that we made and it can be corrected if it's wrong truly. But it sounds pretty irresponsible(sorry for Mr. X), so we re-discuss this case today.\
+      \
+      About this metter, we need to check the definition of matching. In the section 2.2 *Matching* of the book: PROLOG Programming for Artificial Intelligence (third version, Ivan Bratko, 0-201-40375-7), said if two terms match, it must: (1)They are identical, or (2) the variables in both terms can be instantiated to objects in such a way that after the substitution of variables by these objects the terms become identical. Rule (1) is easy to understand, but what is rule (2)? Rule (2) means that if it can get the any value which can make the equation holds, we said it match. For our case, if variable X could be instantiated by any value that make the equation holds, the #match() should return true, otherwise returns false. **But it couldn't be, and also not yet.**\
+      \
+      We can't set true or false on this case utill the variable X can be instantiated. In SWI-Prolog you will get the string "X = [496, X, terence_tao]" as the result instead of false, but it doesn't mean that this matching actually returns true or false(in program). So, for this one, **we just decided to make it not score. You can get the points but you still need to write the test, we don't care about the true or false it returns.**
 
   * Sun Oct 22 2017 13:45:41
   
