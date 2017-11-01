@@ -8,6 +8,11 @@ In this assignment, you are required to implement the more complete parser throu
 
 And from this week, we start to run [Mob programming](https://www.google.com.tw/search?q=mob+programming). There will be one or two group in every week until the end of semester, they are required to show the demonstration which how they run the mob programming and how to solve the problem that in the assignment. It needs to do rehearse and prior planning with us. See below to get more detail.
 
+
+#### Update
+
+  :zap: Our lab network is break now. The CI server is not accessible.
+
 #### Assignment requirement
 
   1. Complete the parser with the description of each test
