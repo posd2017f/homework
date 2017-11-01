@@ -52,7 +52,7 @@ TEST_F(ParserTest, createTerms)
 }
 
 
-// Given there is string: " 12345,  tom" which in scanner.
+// Given there is string: " 12345,  tom" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return two terms, one is "12345", another is "tom".
 TEST_F(ParserTest, listOfTermsTwo) {
@@ -60,7 +60,7 @@ TEST_F(ParserTest, listOfTermsTwo) {
 }
 
 
-// Given there is string: "point(1, X, z(1,2,3))" which in scanner.
+// Given there is string: "point(1, X, z(1,2,3))" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a Struct.
 // And #symbol() of Strcut should return "point(1, X, z(1,2,3))".
@@ -69,7 +69,7 @@ TEST_F(ParserTest, parseStructOfStruct) {
 }
 
 
-// Given there is string: " 12345,  67" which in scanner.
+// Given there is string: " 12345,  67" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return two terms, one is "12345", another is "67".
 TEST_F(ParserTest, listOfTermsTwoNumbers) {
@@ -77,7 +77,7 @@ TEST_F(ParserTest, listOfTermsTwoNumbers) {
 }
 
 
-// Given there is string: "point(1, X, z)" which in scanner.
+// Given there is string: "point(1, X, z)" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a Struct.
 // And #symbol() of Strcut should return "point(1, X, z)".
@@ -86,7 +86,7 @@ TEST_F(ParserTest, parseStructThreeArgs) {
 }
 
 
-// Given there is string: "   [   ]" which in scanner.
+// Given there is string: "   [   ]" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a List.
 // And #symbol() of List should return "[]".
@@ -95,7 +95,7 @@ TEST_F(ParserTest, parseListEmpty) {
 }
 
 
-// Given there is string: "_date" which in scanner.
+// Given there is string: "_date" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a Variable.
 // And #symbol() of Variable should return "_date".
@@ -104,12 +104,15 @@ TEST_F(ParserTest, parseVar) {
 }
 
 
+// Given there is not string in scanner.
+// When parser parses all terms via scanner.
+// Then it should return nothing.
 TEST_F(ParserTest, listOfTermsEmpty) {
 
 }
 
 
-// Given there is string: "s(s(s(s(1))))" which in scanner.
+// Given there is string: "s(s(s(s(1))))" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a Struct.
 // And #symbol() of Strcut should return "s(s(s(s(1))))".
@@ -118,7 +121,7 @@ TEST_F(ParserTest, parseStructOfStructAllTheWay) {
 }
 
 
-// Given there is string: "   [  [1], [] ]" which in scanner.
+// Given there is string: "   [  [1], [] ]" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a List.
 // And #symbol() of List should return "[[1], []]".
@@ -127,7 +130,7 @@ TEST_F(ParserTest, parseListOfLists) {
 }
 
 
-// Given there is string: "   [  [1], [], s(s(1)) ]   " which in scanner.
+// Given there is string: "   [  [1], [], s(s(1)) ]   " in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a List.
 // And #symbol() of List should return "[[1], [], s(s(1))]".
@@ -135,7 +138,7 @@ TEST_F(ParserTest, parseListOfListsAndStruct) {
 
 }
 
-// Given there is string: "   [1, 2]" which in scanner.
+// Given there is string: "   [1, 2]" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a List.
 // And #symbol() of List should return "[1, 2]".
@@ -143,14 +146,14 @@ TEST_F(ParserTest, parseList) {
 
 }
 
-// Given there is string: "[1,2)" which in scanner.
+// Given there is string: "[1,2)" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a string: "unexpected token" as exception.
 TEST_F(ParserTest, illegal1) {
 
 }
 
-// Given there is string: ".(1,[])" which in scanner.
+// Given there is string: ".(1,[])" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a Struct which contains two terms.
 // And #arity() of the Struct should be 2.
@@ -161,7 +164,7 @@ TEST_F(ParserTest, ListAsStruct) {
 }
 
 
-// Given there is string: ".(2,.(1,[]))" which in scanner.
+// Given there is string: ".(2,.(1,[]))" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a Struct which contains two terms.
 // And #arity() of the Struct should be 2.
@@ -172,7 +175,7 @@ TEST_F(ParserTest, ListAsStruct2) {
 }
 
 
-// Given there is string: "s(s(s(s(1)))), b(1,2,3)" which in scanner.
+// Given there is string: "s(s(s(s(1)))), b(1,2,3)" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return two Struct.
 // And #symbol() of the first Strcut should return "s(s(s(s(1))))".
@@ -182,7 +185,7 @@ TEST_F(ParserTest, parseStructOfStructAllTheWay2) {
 }
 
 
-// Given there is string: "point()" which in scanner.
+// Given there is string: "point()" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a Struct.
 // And #symbol() of Strcut should return "point()".
@@ -191,7 +194,7 @@ TEST_F(ParserTest, parseStructNoArg) {
 }
 
 
-// Given there is string: " 12345,  tom,   Date" which in scanner.
+// Given there is string: " 12345,  tom,   Date" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return three terms: "12345", "tom" and "Date".
 TEST_F(ParserTest, listOfTermsThree) {
@@ -199,7 +202,7 @@ TEST_F(ParserTest, listOfTermsThree) {
 }
 
 
-// Given there is string: "point(11,12)" which in scanner.
+// Given there is string: "point(11,12)" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a Struct.
 // And #symbol() of Strcut should return "point(11, 12)".
@@ -208,7 +211,7 @@ TEST_F(ParserTest, parseStructTwoArgs) {
 }
 
 
-// Given there is string: "...(11,12)" which in scanner.
+// Given there is string: "...(11,12)" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a Struct.
 // And #symbol() of Strcut should return "...(11, 12)".
@@ -217,7 +220,7 @@ TEST_F(ParserTest, parseStructDOTSTwoArgs) {
 }
 
 
-// Given there is string: "point(11)" which in scanner.
+// Given there is string: "point(11)" in scanner.
 // When parser parses all terms via scanner.
 // Then it should return a Struct.
 // And #symbol() of Strcut should return "point(11)".
