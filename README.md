@@ -24,7 +24,7 @@ And from this week, we start to run [Mob programming](https://www.google.com.tw/
         \
         ![Imgur](https://i.imgur.com/nkO111j.png) ![Imgur](https://i.imgur.com/mLcnZIb.png) ![Imgur](https://i.imgur.com/ipW1Gvm.png) ![Imgur](https://i.imgur.com/vgN8huc.png)
         
-    3. If you also cannot attend the activity on that week, please email to us.
+    3. If you also cannot attend the activity on that week, please email to us before at least one week.
     
     4. About the method: `arity()` and `args()`, sorry for vague explanation. Here is the detail of interface:
     
