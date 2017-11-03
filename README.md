@@ -11,6 +11,19 @@ And from this week, we start to run [Mob programming](https://www.google.com.tw/
 
 #### Update
 
+  * Fri Nov 03 2017 15:06:12
+
+    The method `args()`, it should return `Term *`, not `Term &`. please correct it in your assignment.
+
+    ```diff
+    class Struct {
+        public:
+          int arity(); // return the number of args (terms)
+    -     Term & args(int index); // according to index return the term
+    +     Term * args(int index); // according to index return the term
+      }
+    ```
+
   * Fri Nov 03 2017 11:55:51
   
     The description of test `TEST_F(ParserTest, ListAsStruct)` is wrong, please correct it in your assignment.
@@ -39,16 +52,9 @@ And from this week, we start to run [Mob programming](https://www.google.com.tw/
         
     3. If you also cannot attend the activity on that week, please email to us before at least one week.
     
-    4. About the method: `arity()` and `args()`, sorry for vague explanation. Here is the detail of interface:
-    
-    ```c++
-      class Struct {
-        public:
-          int arity(); // return the number of args (terms)
-          Term & args(int index); // according to index return the term
-      }
-    ```
-    
+    4. ~~About the method: `arity()` and `args()`, sorry for vague explanation. Here is the detail of interface:~~
+    
+    
 #### Assignment requirement
 
   1. Complete the parser with the description of each test
