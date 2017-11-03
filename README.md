@@ -11,7 +11,20 @@ And from this week, we start to run [Mob programming](https://www.google.com.tw/
 
 #### Update
 
-  :zap: Our lab network is break now. The CI server is not accessible.
+  * Fri Nov 03 2017 11:55:51
+  
+    The description of test `TEST_F(ParserTest, ListAsStruct)` is wrong, please correct it in your assignment.
+
+    ```diff
+    // Then it should return a Struct which contains two terms.
+    // And #arity() of the Struct should be 2.
+    // And #symbol() of Struct should return ".(1, [])".
+    - // And the first term should be number: "1", the second term should be another Strcut: "[]".
+    + // And the first term should be number: "1", the second term should be another List: "[]".
+    TEST_F(ParserTest, ListAsStruct) {
+
+    }
+    ```
   
   * Thu Nov 02 2017 17:30:46
   
