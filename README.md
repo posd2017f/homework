@@ -159,7 +159,7 @@ Ctrl+f for finding your name.
 | 106598029 | 孫暐媜 |
 | 106598069 | 林琨皓 |
 
-### Team #3 (11/25)
+### Team #3 (11/18)
 |   Number  |  Name |
 | --------- | ----- | 
 | 103590006 | 曹暘鑫 |
@@ -171,7 +171,7 @@ Ctrl+f for finding your name.
 | 106598042 | 陳彥霖 |
 | 106598035 | 黃靖幃 |
 
-### Team #4 (12/02)
+### Team #4 ()
 |   Number  |  Name |
 | --------- | ----- | 
 | 103590452 | 陳厚安 |
@@ -184,7 +184,7 @@ Ctrl+f for finding your name.
 | 106598067 | 周妤珊 |
 
 
-### Team #5 (12/09)
+### Team #5 ()
 |   Number  |  Name |
 | --------- | ----- | 
 | 103590026 | 周冠勳 |
@@ -197,7 +197,7 @@ Ctrl+f for finding your name.
 | 106598059 | 翁晁宇 |
 
 
-### Team #6 (12/16)
+### Team #6 ()
 |   Number  |  Name |
 | --------- | ----- | 
 | 103590019 | 黃麟傑 |
@@ -210,7 +210,7 @@ Ctrl+f for finding your name.
 | 106598057 | 曾辰豫 |
 
 
-### Team #7 (12/23)
+### Team #7 ()
 |   Number  |  Name |
 | --------- | ----- | 
 | 103590450 | 馬茂源 |
@@ -223,7 +223,7 @@ Ctrl+f for finding your name.
 | 106598068 | 吳承軒 |
 
 
-### Team #8 (12/30)
+### Team #8 ()
 |   Number  |  Name |
 | --------- | ----- | 
 | 105598401 | 鍾宇佳 |
@@ -236,7 +236,7 @@ Ctrl+f for finding your name.
 | 106598063 | 廖愷鈞 |
 
 
-### Team #9 (01/06)
+### Team #9 ()
 |   Number  |  Name |
 | --------- | ----- |
 | 103590002 | 洪子軒 |
