@@ -38,7 +38,7 @@ And for the coming Saturday(11/25), there will be two teams need to attend the m
 
   2. Implement the new class `Node` and its interface.
   
-  3. Write the corresponding makefile to generate executable file which named hw6. Note that it is the executable name, not the test file name.
+  3. Write the corresponding makefile to generate executable file which named `hw6`. Note that it is the executable name, not the test file name.
   
   4. Make sure your CI job is passed before deadline.
 
