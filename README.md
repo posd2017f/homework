@@ -6,7 +6,7 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
 
 In this assignment, you are required to implement the complete matching like `X=1.` through parser. And for test, you don't need to write the test by yourself, we will provide the test to you. Therefore on the CI server, you will only have one job. Please follow the test to implement the necessary class and its interface.
 
-And for the coming Saturday(11/25), there will be two teams need to attend the mob programming. Some adjustion here, please check your name and time, reply to us if you cannot come school on Saturday.
+And for the coming Saturday(11/25), there will be two teams need to attend the mob programming. Some adjustment here, please check your name and time, reply to us if you cannot come school on Saturday.
 
 ### Team #2 (11/25)
 |   Number  |  Name |
