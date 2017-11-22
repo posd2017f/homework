@@ -36,9 +36,9 @@ And for the coming Saturday(11/25), there will be two teams need to attend the m
 
   1. Complete the parser through the test.
 
-  2. Implement the new class `Node` and its interface. The `Node` class is used to create the expression tree, and the tree represents the structure of a sentence. Each node is an operator or an operand, you need to visit the whole tree to do the real matching.
+  2. Implement the new class `Node` and its interface. The `Node` class is used to create the expression tree, and the tree represents the structure of a sentence. Each node is an operator or an operand, so you need to visit the whole tree to do the real matching.
   ![tree](https://i.imgur.com/JYVvY2s.png)
-  So the class has the `two constructors` to generate an node or connect two child nodes, and the `evaluate` method is used to evaluate that when to do the matching.
+  The class has the `two constructors` to generate an node or connect two child nodes, and the `evaluate` method is used to evaluate that when to do the matching.
   
   3. Write the corresponding makefile to generate executable file which named `hw6`. Note that it is the executable name, not the test file name.
   
