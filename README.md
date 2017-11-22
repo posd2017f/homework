@@ -6,7 +6,7 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
 
 In this assignment, you are required to implement the complete matching like `X=1.` through parser. And for test, you don't need to write the test by yourself, we will provide the test to you. Therefore on the CI server, you will only have one job. Please follow the test to implement the necessary class and its interface.
 
-And for the coming Saturday(11/25), there will be two teams need to attend the mob programming. Some adjustment here, please check your name and time, reply to us if you cannot attend the activity on Saturday.
+And for the coming Saturday(11/25), there will be two teams need to attend the mob programming. Some adjustment here, please check your name and time, reply to us if you cannot attend the activity on Saturday. And for the demonstration , there is a difference from the previous time, please check [the demonstration  part](https://github.com/posd2017f/homework#demonstration) to get the more information.
 
 ### Team #2 (11/25)
 |   Number  |
@@ -36,7 +36,9 @@ And for the coming Saturday(11/25), there will be two teams need to attend the m
 
   1. Complete the parser through the test.
 
-  2. Implement the new class `Node` and its interface.
+  2. Implement the new class `Node` and its interface. The `Node` class is used to create the expression tree, and the tree represents the structure of a sentence. Each node is an operator or an operand, you need to visit the whole tree to do the real matching.
+  ![tree](https://i.imgur.com/JYVvY2s.png)
+  So the class has the `two constructors` to generate an node and connect two child nodes, and the `evaluate` method is used to evaluate that when to do the matching.
   
   3. Write the corresponding makefile to generate executable file which named `hw6`. Note that it is the executable name, not the test file name.
   
@@ -45,7 +47,7 @@ And for the coming Saturday(11/25), there will be two teams need to attend the m
 #### Marks
 
   You totally have 11 tests, each one is 9 points.
-  And for calculating easier, the sum score of assignment is 100 points.
+  And for easier calculating, the sum score of assignment is 100 points.
 
 #### Deadline
 
@@ -88,10 +90,16 @@ And for the coming Saturday(11/25), there will be two teams need to attend the m
   2. For each one student, you will get a questonnaire before mob, the questonnaire is about personal planning that what do you want to get from this time(like what's mob programming in reality? or how does other guy do his/her assignment, etc.). So, think about it before mob.
 
   3. Plan the solution for assignmnet: do not just come here and wait for other guy share their wonderful solution. Think about problem first by yourself, therefore results a good communication and no wasting time.
-
+`
 #### Demonstration
 
-  In following Friday, Each team have **50 minutes** to show the demonstration which how they run the mob programming and how to solve the problem that in the assignment. 
+  On the Friday of next week, Each team have about **20 minutes** to show the demonstration which how they run the mob programming and how to solve the problem that in the assignment.
+  
+  Two teams will do the demonstration in order, the first team done a part of the code with three tests, the second team will need to continue to do the demo with the code.
+
+  Each team will demo about three tests in the class, you don't have to complete the all tests. The three tests is specified by TA, and we will pick the simple, medium and complex test for each team.
+  
+  About the code that you write through the mob, it will not be used in the later course, so you don't need to push it to repository of the course.
 
 #### Schedule on Saturday
 
