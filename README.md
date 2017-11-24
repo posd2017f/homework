@@ -12,8 +12,8 @@ And for the coming Saturday(11/25), there will be two teams need to attend the m
 
   * Fri Nov 24 2017 10:04:53
   
-    1. [Remove the assertion for symtable](https://github.com/posd2017f/homework/commit/044104f7f0cde0602c5034c330aad790eb6233bb#diff-d6ccfd1db8c6193d6118db3625f88da7). 
-    2. [Add the description for the parser method](https://github.com/posd2017f/homework/blob/master/README.md#assignment-requirement).
+  1. [Remove the assertion for symtable](https://github.com/posd2017f/homework/commit/044104f7f0cde0602c5034c330aad790eb6233bb#diff-d6ccfd1db8c6193d6118db3625f88da7).
+  2. [Add the description for the parser method](https://github.com/posd2017f/homework/blob/master/README.md#assignment-requirement).
 
 
 ### Mob programming team on 11/25
