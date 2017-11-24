@@ -8,29 +8,24 @@ In this assignment, you are required to implement the complete matching like `X=
 
 And for the coming Saturday(11/25), there will be two teams need to attend the mob programming. Some adjustment here, please check your name and time, reply to us if you cannot attend the activity on Saturday. And for the demonstration , there is a difference from the previous time, please check [the demonstration  part](https://github.com/posd2017f/homework#demonstration) to get the more information.
 
-### Team #2 (11/25)
-|   Number  |
-| --------- |
-| 103590028 |
-| 105598043 |
-| 105598062 |
-| 106598006 |
-| 106598016 |
-| 106598027 |
-| 106598029 |
-| 106598041 |
+### Update
 
-### Team #3 (11/25)
-|   Number  |
-| --------- |
-| 103590006 |
-| 104598046 |
-| 105598060 |
-| 106598004 |
-| 106598011 |
-| 106598045 | 
-| 106598042 |
-| 106598035 |
+  * Fri Nov 24 2017 10:04:53
+  
+    Remove the assertion for symtable. 
+
+
+### Mob programming team on 11/25
+|   Team#2  |   Team#3  |
+| --------- | --------- |
+| 103590028 | 103590006 |
+| 105598043 | 104598046 |
+| 105598062 | 105598060 |
+| 106598006 | 106598004 |
+| 106598016 | 106598011 |
+| 106598027 | 106598045 | 
+| 106598029 | 106598042 |
+| 106598041 | 106598035 |
 
 #### Assignment requirement
 
