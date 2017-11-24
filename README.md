@@ -36,7 +36,7 @@ And for the coming Saturday(11/25), there will be two teams need to attend the m
       
       We create a new method called `matchings` to parse the whole sentence. It take the sentence as the input, and __generates all terms in the sentence and make the corresponding tree__ to ready to do the real matching. The matching will call the `createTerm` method in serval times, and if it meets a list or structure, it will call `createTerms`(getArgs) to get the arguments for that.
 
-      After `matchings`, the client will get __the root node of the tree by `expressionTree`__, and __do the real matching through the `evaluate`__ method of the root node. And after `evaluate` the whole tree, client will get the final status of the matching. E.g. `X=1.`, the X will be the number 1 after the process.
+      After `matchings`, the client will get __the root node of the tree by `expressionTree`__, and __do the real matching through the `evaluate` method of the root node__. And after `evaluate` the whole tree, client will get the final status of the matching. E.g. `X=1.`, the X will be the number 1 after the process.
 
   2. Implement the new class `Node` and its interface. The `Node` class is used to create the expression tree, and the tree represents the structure of a sentence. Each node is an operator or an operand, so you need to visit the whole tree to do the real matching.
   ![tree](https://i.imgur.com/JYVvY2s.png)
