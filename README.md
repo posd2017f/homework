@@ -12,7 +12,8 @@ And for the coming Saturday(11/25), there will be two teams need to attend the m
 
   * Fri Nov 24 2017 10:04:53
   
-    Remove the assertion for symtable. 
+    1. Remove the assertion for symtable. 
+    2. Add the description for the parser method.
 
 
 ### Mob programming team on 11/25
@@ -29,7 +30,13 @@ And for the coming Saturday(11/25), there will be two teams need to attend the m
 
 #### Assignment requirement
 
-  1. Complete the parser through the test.
+  1. Complete the parser through the test. 
+  
+      There are some methods different from before, especially the `createTerms` is no longer public and we use `matchings` to make term and pares sentence instead of `createTerms`. Basically it is the difference concept between parsing the complete sentence and parsing a part within the sentence. The `createTerms` should be responsible for getting the arguments if there is a list or structure, therefore it should be named `getArgs` rather then `createTerms`.
+      
+      We create a new method called `matchings` to parse the whole sentence. It take the sentence as the input, and __generates all terms in the sentence and make the corresponding tree__ to ready to do the real matching. The matching will call the `createTerm` method in serval times, and if it meets a list or structure, it will call `createTerms`(getArgs) to get the arguments for that.
+
+      After `matchings`, the client will get __the root node of the tree by `expressionTree`__, and __do the real matching through the `evaluate`__ method of the root node. And after `evaluate` the whole tree, client will get the final status of the matching. E.g. `X=1.`, the X will be the number 1 after the process.
 
   2. Implement the new class `Node` and its interface. The `Node` class is used to create the expression tree, and the tree represents the structure of a sentence. Each node is an operator or an operand, so you need to visit the whole tree to do the real matching.
   ![tree](https://i.imgur.com/JYVvY2s.png)
