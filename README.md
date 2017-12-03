@@ -10,7 +10,13 @@ You need to design the tests to test your iterator, the function signature of it
 
 For mob programming, there are some changes of schedule and its activity. We add a activity called `Retrospective` in last step, which is the same as the retrospective in [Scrum](http://teddy-chen-tw.blogspot.tw/2011/12/scrum-1.html). In retrospective, team will discuss about some issue related to team's development process, and it will help you to review the way when you write code and give you some feedback so you can improve to yourself.
 
-![Imgur](https://i.imgur.com/pGtCc86.png)
+## Chagne history
+
+12/03
+
+first() in our example should return bigmac not combo1.
+
+![Imgur](https://i.imgur.com/v1GyjBX.png)
 
 ### Mob programming team on 12/02
 |   Team#4 (at 1622)  |   Team#5 (at 1321) |
