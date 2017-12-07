@@ -10,11 +10,19 @@ You need to design the tests to test your iterator, the function signature of it
 
 For mob programming, there are some changes of schedule and its activity. We add a activity called `Retrospective` in last step, which is the same as the retrospective in [Scrum](http://teddy-chen-tw.blogspot.tw/2011/12/scrum-1.html). In retrospective, team will discuss about some issue related to team's development process, and it will help you to review the way when you write code and give you some feedback so you can improve to yourself.
 
-## Chagne history
+### Update
 
-12/03
+ * Thu Dec 07 2017 14:31:36
+ 
+   1. The deadline is extended to the next Monday(12/11 23:59:59)
+   
+   2. There is no mob on this weekend, team#6 #7 will be on the next Saturday(12/16).
+   
+   3. Few people got the *Segmentation Fault* on CI server but run test successfully on local. This is due to different compiler of different OS: mingw32-make, make. The problem cannot be addressed with a signle soluation, but it occurs on invoking the memory that cannot be accessed, e.g. use the nullptr or use the object that not initialized yet. So please check initialization before using, or delete object properly after test.
 
-first() in our example should return bigmac not combo1.
+ * Sun Dec 03 2017 15:22:02
+
+  first() in our example should return bigmac not combo1.
 
 ![Imgur](https://i.imgur.com/v1GyjBX.png)
 
