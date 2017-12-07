@@ -62,7 +62,7 @@ For mob programming, there are some changes of schedule and its activity. We add
 
 #### Deadline
 
-  Fri Dec 8 2017 23:59:59
+  Mon Dec 11 2017 23:59:59
 
 #### Note
 
