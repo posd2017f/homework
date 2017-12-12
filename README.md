@@ -24,9 +24,6 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
 
 #### Marks
 
-  You totally have 12 tests, include the test written on the course. Each one is 5 points.
-  And we will have 8 tests, each one is also 5 points.
-  The sum score of assignment is 100 points.
 
 #### Deadline
 
