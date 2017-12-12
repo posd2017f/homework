@@ -1,58 +1,26 @@
 # POSD2017F Homework
 
-## Homework assignment 7
+## Homework assignment 8
 
 Please use [the files that were used in course](https://github.com/yccheng66/posd2017f) and copy test header to your repository from this project.
 
-In this time, you have to design your tests for the iterator of `Struct` and `List`. A structure contains several terms, it can be expanded into a tree structure like the picture below. We will make two kinds of way to traverse the structure, the first is [deep-first search](https://en.wikipedia.org/wiki/Depth-first_search), and the second is [breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search). When traversing the structure, iterator gets each item in structure orderly.
-
-You need to design the tests to test your iterator, the function signature of iterator and its usage must follow the way that defined on the course. There is also ours tests to test your program on the CI server (.ut job). 
-
-For mob programming, there are some changes of schedule and its activity. We add a activity called `Retrospective` in last step, which is the same as the retrospective in [Scrum](http://teddy-chen-tw.blogspot.tw/2011/12/scrum-1.html). In retrospective, team will discuss about some issue related to team's development process, and it will help you to review the way when you write code and give you some feedback so you can improve to yourself.
-
-### Update
-
- * Thu Dec 07 2017 14:31:36
- 
-   1. The deadline is extended to the next Monday(12/11 23:59:59)
-   
-   2. There is no mob on this weekend, team#6 #7 will be on the next Saturday(12/16).
-   
-   3. Few people got the *Segmentation Fault* on CI server but run test successfully on local. This is due to different compiler of different OS: mingw32-make, make. The problem cannot be addressed with a signle soluation, but it occurs on invoking the memory that cannot be accessed, e.g. use the nullptr or use the object that not initialized yet. So please check initialization before using, or delete object properly after test.
-
- * Sun Dec 03 2017 15:22:02
-
-  first() in our example should return bigmac not combo1.
-
-![Imgur](https://i.imgur.com/v1GyjBX.png)
-
-### Mob programming team on 12/02
-|   Team#4 (at 1622)  |   Team#5 (at 1321) |
+### Mob programming team on 12/16
+|   Team#6 (at 1622)  |   Team#7 (at 1321) |
 | --------- | --------- |
-| 103590452 | 103590026 |
-| ~~105598072~~ | 105598046 |
-| 106598034 | 105598059 |
-| 106598040 | 106598007 |
-| 106598013 | 106598014 |
-| 106598056 | 106598043 | 
-| 106598064 | 106598052 |
-| 106598067 | 106598059 |
+| 103590019 | 103590450 |
+| 105598061 | 105598073 |
+| 106598009 | 106598005 |
+| 106598017 | 106598020 |
+| 106598026 | 106598033 |
+| 106598037 | 106598051 | 
+| 106598047 | 106598055 |
+| 106598057 | 106598068 |
 
 #### Assignment requirement
-
-  1. Redo the creation of iterator, use aggregate(e.g. `Struct`) to create iterator instead of client, and re-write the test of that.
-
-  2.  As we can handle difference type on function through *template\<T>*, make the template on `Iterator` so it can handle the type other than `Term`.
-
-  3. Design test for the iterator by yourself. The function signature and usage is not allow to change. 
-     
-     * Two kind of way for traversing: Deep-first search, Breadth-first search, so there will be two methods on the aggregate: `createBFSIterator`, `createDFSIterator`.
-
-     * You need to design 2 test data for each type, `Struct` and `List`, and use BFS and DFS to traverse each test data. So it totally has 8 tests.
  
-  4. Write the corresponding makefile to generate executable file which named `hw7`. Note that it is the executable name, not the test file name.
+  1. Write the corresponding makefile to generate executable file which named `hw8`. Note that it is the executable name, not the test file name.
 
-  5. Make sure your CI job is passed before deadline.
+  2. Make sure your CI job is passed before deadline.
 
 #### Marks
 
@@ -62,7 +30,7 @@ For mob programming, there are some changes of schedule and its activity. We add
 
 #### Deadline
 
-  Mon Dec 11 2017 23:59:59
+  
 
 #### Note
 
@@ -132,33 +100,7 @@ For mob programming, there are some changes of schedule and its activity. We add
 
 Ctrl+f for finding your name.
 
-### Team #4 (12/02)
-|   Number  |
-| --------- |
-| 103590452 |
-| 105598072 |
-| 106598034 |
-| 106598040 |
-| 106598013 |
-| 106598056 |
-| 106598064 |
-| 106598067 |
-
-
-### Team #5 (12/02)
-|   Number  |
-| --------- |
-| 103590026 |
-| 105598046 |
-| 105598059 |
-| 106598007 |
-| 106598014 |
-| 106598043 |
-| 106598052 |
-| 106598059 |
-
-
-### Team #6 ()
+### Team #6 (12/16)
 |   Number  |
 | --------- |
 | 103590019 |
@@ -171,14 +113,14 @@ Ctrl+f for finding your name.
 | 106598057 |
 
 
-### Team #7 ()
+### Team #7 (12/16)
 |   Number  |
 | --------- |
 | 103590450 |
 | 105598073 |
 | 106598005 |
 | 106598020 |
-| 106598028 |
+| 106598033 |
 | 106598051 |
 | 106598055 |
 | 106598068 |
@@ -191,7 +133,7 @@ Ctrl+f for finding your name.
 | 106598010 |
 | 106598018 | 
 | 106598025 |
-| 106598033 |
+| 106598028 |
 | 106598039 |
 | 106598044 |
 | 106598063 |
@@ -245,4 +187,27 @@ Ctrl+f for finding your name.
 | 106598042 |
 | 106598035 |
 
-#### Change log
+### Team #4 (12/02 Done)
+|   Number  |
+| --------- |
+| 103590452 |
+| 105598072 |
+| 106598034 |
+| 106598040 |
+| 106598013 |
+| 106598056 |
+| 106598064 |
+| 106598067 |
+
+
+### Team #5 (12/02 Done)
+|   Number  |
+| --------- |
+| 103590026 |
+| 105598046 |
+| 105598059 |
+| 106598007 |
+| 106598014 |
+| 106598043 |
+| 106598052 |
+| 106598059 |
