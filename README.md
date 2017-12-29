@@ -4,7 +4,13 @@
 
 Please use [the files that were used in course](https://github.com/yccheng66/posd2017f) and copy test header to your repository from this project.
 
-### Mob programming team on 12/16
+In this time, you need to make a `Shell` to wrapper the program that we made before. It should handle user input and put the input into program, then show the corresponding result. And in some situation, you will need to improve your program to handle the exception if wrong expression.
+
+And we re-assign the mob schedule, the remaining teams will be in the coming week, Tuesday for Team#6, 7 and Wednesday for Team#8, 9. The activity start at 7:00 PM, end at 9:00 PM, fill out the questionnaire, we will provide the free dinner.
+
+If you can't attend, please email to us, thanks.
+
+### Mob programming team on 01/02
 |   Team#6 (at 1622)  |   Team#7 (at 1321) |
 | --------- | --------- |
 | 103590019 | 103590450 |
@@ -16,18 +22,48 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
 | 106598047 | 106598055 |
 | 106598057 | 106598068 |
 
-#### Assignment requirement
- 
-  1. Write the corresponding makefile to generate executable file which named `hw8`. Note that it is the executable name, not the test file name.
+### Mob programming team on 01/03
+|   Team#8 (at 1622)  |   Team#9 (at 1321) |
+| --------- | --------- |
+| 105598401 | 103590002 |
+| 106598010 | 106598012 |
+| 106598018 | 106598019 |
+| 106598025 | 106598022 |
+| 106598028 | 106598069 |
+| 106598039 | 106598049 | 
+| 106598044 | 106598065 |
+| 106598063 | 106598401 |
 
-  2. Make sure your CI job is passed before deadline.
+
+#### Assignment requirement
+
+  1. This assignment doesn't limit how you implement the shell, but you must ensure that your shell conforms to the following requirements.
+      * The shell should provide some functions written in `shell.md`.
+
+      * Handle the expressions written in `expression.h`, and show corresponding result.
+ 
+      * Handle the exceptions written in `exception.h`, and show corresponding result.
+
+      * Shell shouldn't crash if something goes wrong.
+
+  2. Design suitable unit test for all implementations that you write for this assignment.
+
+  3. Write the corresponding makefile to generate executable file which named `hw8`. This is for executing the test on CI server.
+
+  4. Write the corresponding makefile to generate executable file which named `shell`. This is for executing the shell.
+
+  5. Make sure your CI job is passed before deadline.s
 
 #### Marks
 
+  There are 29 tests in `expression.h` and `exception.h`, each one is 3 points; 3 functions written in `shell.md`, each one is 4 points.
+  For easier calculating, the sum score of assignment is 100 points.
+
+  If Shell crash, total points deducted 10 points.
 
 #### Deadline
 
-  
+  Fri Jan 05 2018 23:59:59
 
 #### Note
 
@@ -77,27 +113,27 @@ Please use [the files that were used in course](https://github.com/yccheng66/pos
   
   About the code that you write through the mob, it will not be used in the later course, so you don't need to push it to repository of the course.
 
-#### Schedule on Saturday
+#### Schedule on coming week
 
   This is temporary and may be adjusted according to the actual situation.
 
-  If you are on the week, please fill out the [lunch questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSecaGZM_WujJToLXw9CfXtfg-8c-gXzbxOb9TT5TXlqZOsNxg/viewform?c=0&w=1&usp=mail_form_link), and **launch is free**.
+  If you are on the week, please fill out the [lunch questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSecaGZM_WujJToLXw9CfXtfg-8c-gXzbxOb9TT5TXlqZOsNxg/viewform?c=0&w=1&usp=mail_form_link), and **dinner is free**.
 
-  Break ice and lunch(free): **12 : 00 ~ 12 : 50**
+  Break ice and dinner(free): **18 : 00 ~ 18 : 50**
 
-  Prepared: **12 : 50 ~ 13 : 00**
+  Prepared: **18 : 50 ~ 19 : 00**
 
-  Mob programming: **13 : 00 ~ 16 : 00**
+  Mob programming: **19 : 00 ~ 21 : 00**
 
-  Retrospective: **16 : 00 ~ 16 : 30**
+  ~~Retrospective: **16 : 00 ~ 16 : 30**~~ (depends on how things go)
 
   Location: **宏裕科技大樓 13F Lab1321 or 16F 1622**
 
 #### Team list：
 
-Ctrl+f for finding your name.
+Ctrl+f for finding your number.
 
-### Team #6 (12/16)
+### Team #6 (01/02)
 |   Number  |
 | --------- |
 | 103590019 |
@@ -110,7 +146,7 @@ Ctrl+f for finding your name.
 | 106598057 |
 
 
-### Team #7 (12/16)
+### Team #7 (01/02)
 |   Number  |
 | --------- |
 | 103590450 |
@@ -123,7 +159,7 @@ Ctrl+f for finding your name.
 | 106598068 |
 
 
-### Team #8 ()
+### Team #8 (01/03)
 |   Number  |
 | --------- |
 | 105598401 |
@@ -136,7 +172,7 @@ Ctrl+f for finding your name.
 | 106598063 |
 
 
-### Team #9 ()
+### Team #9 (01/03)
 |   Number  |
 | --------- |
 | 103590002 |
