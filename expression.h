@@ -279,23 +279,6 @@ TEST(Shell, conjunctionMatching_duplicateExp) {
   }
 }
 
-TEST(Shell, conjunctionMatching) {
-  Scanner s("Y=1, X=2, X=2.");
-  Parser p(s);
-  try {
-    p.buildExpression();
-    
-     /**
-     *  maybe your implementation here.
-     */
-
-    ASSERT_EQ("Y = 1, X = 2.", result);
-  } catch (std::string &msg) { 
-    FAIL() << msg;
-  }
-}
-
-
 TEST(Shell, disjunctionMatching1) {
   Scanner s("X=1; X=2.");
   Parser p(s);
