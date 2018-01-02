@@ -121,7 +121,7 @@ If you can't attend, please email to us, thanks.
 
   This is temporary and may be adjusted according to the actual situation.
 
-  If you are on the week, please fill out the [lunch questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSecaGZM_WujJToLXw9CfXtfg-8c-gXzbxOb9TT5TXlqZOsNxg/viewform?c=0&w=1&usp=mail_form_link), and **dinner is free**.
+  If you are on the week, please fill out the [dinner questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSecaGZM_WujJToLXw9CfXtfg-8c-gXzbxOb9TT5TXlqZOsNxg/viewform?c=0&w=1&usp=mail_form_link), and **dinner is free**.
 
   Break ice and dinner(free): **18 : 00 ~ 18 : 50**
 
