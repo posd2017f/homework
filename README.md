@@ -34,6 +34,10 @@ If you can't attend, please email to us, thanks.
 | 106598044 | 106598065 |
 | 106598063 | 106598401 |
 
+#### Update
+  * Tue Jan 02 2018 10:51:25
+    
+    Test case `disjunctionMatching5` in `expression.h`, the result should be *"X = 1; true; Y = 2."*.
 
 #### Assignment requirement
 
